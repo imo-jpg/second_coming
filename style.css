@@ -1,0 +1,65 @@
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
+#scrolly {
+    position: relative;
+    background-color: #f3f3f3;
+    padding: 1rem;
+}
+
+#intro {
+    position: relative;
+    height: 600px;
+    background-color: #c9c9c9;
+    z-index: 2;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+#intro h1 {
+    font-size: 5rem;
+}
+
+#outro {
+    position: relative;
+    height: 800px;
+    background-color: #c9c9c9;
+    z-index: 2;
+}
+
+article {
+    position: relative;
+    padding: 0;
+    max-width: 20rem;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+figure {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+}
+
+.step {
+    margin: 0 auto 2rem auto;
+    color: #3b3b3b;
+}
+
+.step:last-child {
+    margin-bottom: 5rem;
+}
+
+.step.is-active {
+    color: goldenrod;
+}
+
+.step p {
+    text-align: left;
+    padding: 6rem 1rem 6rem 1rem;
+    font-size: 1.5rem;
+}
